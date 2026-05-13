@@ -19,3 +19,4 @@ captures
 node_modules/
 composeApp/google-services.json
 shared/src/commonMain/kotlin/com/nutrisport/shared/Constants.kt
+iosApp/iosApp/GoogleService-Info.plist
