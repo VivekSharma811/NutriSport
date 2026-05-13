@@ -6,7 +6,7 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-//    alias(libs.plugins.google.services)
+    alias(libs.plugins.google.services)
 //    id("io.kotzilla.kotzilla-plugin")
 }
 
@@ -56,7 +56,7 @@ kotlin {
 //            implementation("io.kotzilla:kotzilla-sdk-ktor3:1.2.0-Beta1")
 
             implementation(project(path = ":navigation"))
-//            implementation(project(path = ":shared"))
+            implementation(project(path = ":shared"))
 //            implementation(project(path = ":di"))
 //            implementation(project(path = ":data"))
         }
